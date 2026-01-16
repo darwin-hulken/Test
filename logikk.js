@@ -3,7 +3,7 @@ const choicesElement = document.getElementById("choices");
 
 const scenes = {
     start: {
-        text: "Andreas står hjemme i sofaen. Fotballkampen starter om én time. Hvordan vil han komme seg til stadion?",
+        text: "Andreas sitter hjemme. Fotballkampen starter om én time. Hvordan vil han komme seg til stadion?",
         choices: [
             { text: "Ta bussen", next: "bus" },
             { text: "Gå til fots", next: "walk" }
